@@ -23,13 +23,13 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
 
 ![2](https://user-images.githubusercontent.com/47898882/141002344-44d8cc8a-8798-40b7-9e64-c82274d660d6.JPG)
 
-- Add the migrated terraform project codebase [repo](https://github.com/brpo01/terraform-project).
+- Add the migrated terraform project codebase [repository](https://github.com/brpo01/terraform-project)
 
 ![3](https://user-images.githubusercontent.com/47898882/141002348-f81a5a52-9a11-4b44-9081-c97b07a5ee07.JPG)
 
 - Provide a description for your workspace and click "Create workspace"
 
-![2](https://user-images.githubusercontent.com/47898882/141002344-44d8cc8a-8798-40b7-9e64-c82274d660d6.JPG)
+![4](https://user-images.githubusercontent.com/47898882/141002350-ad137788-9f0a-4082-9ffd-3493e5290899.JPG)
 
 - Configure variables
 
