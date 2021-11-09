@@ -66,6 +66,10 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
 
   ![8](https://user-images.githubusercontent.com/47898882/141004382-0ef6fd0e-2e53-4222-ae09-dc6d0bbab647.JPG)
 
+  - Select a source workspace to create a run trigger
+
+  ![9](https://user-images.githubusercontent.com/47898882/141004390-90a8efec-5051-429f-8b45-7b2bee25fd0a.JPG)
+
   - Click Create Workspace
   
   - Configure your variables
