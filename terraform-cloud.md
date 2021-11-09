@@ -118,12 +118,15 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   - You'll need to add a VCS provider. Select GitHub (Custom) when prompted
   - Follow the outlined steps
   - Click connect and continue
-
   - Go back to Registry
   - Click "Publish private module" 
   - Click the VCS you configured and find the name of your module repo
   - Select the module and click the "Publish module" button
-  - Copy the configuration details, you'll need it later for when you want to use the module
+
+  - Copy the configuration details, you'll need it later for when you want to use the module.
+
+  ![13](https://user-images.githubusercontent.com/47898882/141006256-51dd8737-17a3-4133-8e5c-b24a0b01daee.JPG)
+
   - Create a configuration that uses the module
 
   - You can fork this repo https://github.com/hashicorp/learn-private-module-root/
