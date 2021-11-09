@@ -87,7 +87,10 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   - Under Triggers, click the "Only certain events" radio button
   - Check the boxes you want to be notfied for
 
-![{42D15FCE-73EF-442C-96CF-DC0DA112F43C} png](https://user-images.githubusercontent.com/76074379/132106226-b5366b95-a26d-428f-a3f1-290e65dc596c.jpg)
+![10](https://user-images.githubusercontent.com/47898882/141004392-02ae3204-a5fd-4d2a-9347-6c2ef39cd226.JPG)
+
+![11](https://user-images.githubusercontent.com/47898882/141004394-47c30815-696f-45d0-8d20-d64870168d95.JPG)
+
 
 - To configure Slack notification, choose Slack instead of Email
 - See how to get your Slack webhook here: https://api.slack.com/messaging/webhooks#create_a_webhook
