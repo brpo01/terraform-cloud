@@ -155,9 +155,7 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   }
   ```
 
-  ![{3DA80531-0AB9-404F-902B-2CFB7BADB882} png](https://user-images.githubusercontent.com/76074379/132107226-0824d01d-8782-4a00-b372-c5e6a2aba978.jpg)
-
-  replace the **module** block with the configuration details you copied earlier.
+**Note** - Replace the **module** block with the configuration details you copied earlier.
 
   - In your variables.tf file, add the following
 
@@ -185,15 +183,15 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 
 ## Create a workspace for the configuration
 
-In Terraform Cloud, create a new workspace and choose your GitHub connection.
+- In Terraform Cloud, create a new workspace and choose your GitHub connection.
 
-Terraform Cloud will display a list of your GitHub repositories. You may need to filter by name to find and choose the your root configuration repository, called learn-private-module-root.
+- Terraform Cloud will display a list of your GitHub repositories. You may need to filter by name to find and choose the your root configuration repository, called learn-private-module-root.
 
-Leave the workspace name and "Advanced options" unchanged, and click the purple "Create workspace" button to create the workspace.
+- Leave the workspace name and "Advanced options" unchanged, and click the purple "Create workspace" button to create the workspace.
 
-Once your configuration is uploaded successfully, choose "Configure variables."
+- Once your configuration is uploaded successfully, choose "Configure variables."
 
-You will need to add the three Terraform variables prefix, region, and name. These variables correspond to the variables.tf file in your root module configuration and are necessary to create a unique S3 bucket name for your webapp. Add your AWS credentials as two environment variables, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and mark them as sensitive.
+- You will need to add the three Terraform variables prefix, region, and name. These variables correspond to the variables.tf file in your root module configuration and are necessary to create a unique S3 bucket name for your webapp. Add your AWS credentials as two environment variables, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and mark them as sensitive.
 
 ![{92E2D916-F4D6-4222-93AA-43D58B17D539} png](https://user-images.githubusercontent.com/76074379/132107624-9a62b4d9-02a9-4f72-9db7-b13f559f4261.jpg)
 
