@@ -193,18 +193,23 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 
 - You will need to add the three Terraform variables prefix, region, and name. These variables correspond to the variables.tf file in your root module configuration and are necessary to create a unique S3 bucket name for your webapp. Add your AWS credentials as two environment variables, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and mark them as sensitive.
 
-![{92E2D916-F4D6-4222-93AA-43D58B17D539} png](https://user-images.githubusercontent.com/76074379/132107624-9a62b4d9-02a9-4f72-9db7-b13f559f4261.jpg)
+![14](https://user-images.githubusercontent.com/47898882/141006267-3b672667-75d0-4ae9-9169-0b9b5ca357e9.JPG)
+
 
 ## Deploy the infrastructure
 
 Test your deployment by queuing a plan, then confriming and applying the plan in your Terraform Cloud UI.
 
-![{9123759B-4144-461F-8F83-248FA6AB30B3} png](https://user-images.githubusercontent.com/76074379/132107732-f8ebd9be-aab8-4298-868d-a568eaef3525.jpg)
+![15](https://user-images.githubusercontent.com/47898882/141006279-3496bbf8-5e00-46b1-9d57-14615168110a.JPG)
 
-![{074CD6D3-90F4-472D-95AE-9CB8FDC67061} png](https://user-images.githubusercontent.com/76074379/132107757-70919cc7-48d5-466b-a17b-f47a37fdb265.jpg)
+![18](https://user-images.githubusercontent.com/47898882/141006293-18b393a6-d55c-4a63-95fa-fb2cfdab9d87.JPG)
+
+- Input the endpoint url in your browser, you should see the below on your webpage
+
+![17](https://user-images.githubusercontent.com/47898882/141006286-01e2d9df-83ea-41a4-a214-e6df7583e1b2.JPG)
+
 
 ## Destroy the deployment
 
 You will need queue a destroy plan in the Terraform Cloud UI for your workspace, by clicking the "Queue destroy plan" button.
 
-![{5F6A230B-E0CD-4435-9617-7D474C28F447} png](https://user-images.githubusercontent.com/76074379/132109240-5e9f941b-9eb6-49af-a6d7-23205dc79faa.jpg)
