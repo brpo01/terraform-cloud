@@ -212,4 +212,4 @@ Test your deployment by queuing a plan, then confriming and applying the plan in
 
 You will need queue a destroy plan in the Terraform Cloud UI for your workspace, by clicking the "Queue destroy plan" button.
 
-## Congratualations!!. You've automated your AWS Infrastructure uding Terraform Cloud.
+## Congratualations!!. You've automated your AWS Infrastructure using Terraform Cloud.
