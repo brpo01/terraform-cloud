@@ -43,9 +43,7 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
   - Click "Queue plan"
   - After the **plan** run is complete, click "Confirm and apply". Enter a comment and click "Confirm plan" to apply the configuration.
 
-![{30FE31FC-0A18-49C3-B465-2A5F2354BC77} png](https://user-images.githubusercontent.com/76074379/132105581-e959d182-0b4c-4060-a4ec-497a49c51312.jpg)
-
-![{7F9AF193-D0C2-47E7-9E2B-BDC5725BCDBA} png](https://user-images.githubusercontent.com/76074379/132105620-ff7b1cd3-a213-46f5-82b2-f0b70d87e4c5.jpg)
+![6](https://user-images.githubusercontent.com/47898882/141002364-495afa1a-a159-42a1-a84a-90ec23f2685e.JPG)
 
 - Test automated **terraform plan**
   - Edit a file in your repo, and commit. A **plan** run should be triggered automatically.
