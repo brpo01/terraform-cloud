@@ -108,9 +108,10 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   - Click "Tag release" from the left pane
   - Create a new release
   - Click "Create a new release", and add 1.0.0 to the tag version field, and set the Release title to anything you like.
+  
   - Click "Publish release"
 
-![{7AD3A1AB-B7FE-44E9-949B-9AF8965590CC} png](https://user-images.githubusercontent.com/76074379/132107006-d23c3313-a300-4d62-9f5e-14e84d808a9a.jpg)
+![12](https://user-images.githubusercontent.com/47898882/141006248-e67ce941-25c2-45f9-b233-064099beef21.JPG)
 
 - Import the module into your private repository
   - On your Terraform cloud, click Registry on the top pane
