@@ -57,7 +57,7 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
 
   - Select "GitHub" as version control provider
 
-   ![7](https://user-images.githubusercontent.com/47898882/141002371-a3293dbe-884f-41a4-9b7a-ed0cd31194bb.JPG)
+  ![7](https://user-images.githubusercontent.com/47898882/141002371-a3293dbe-884f-41a4-9b7a-ed0cd31194bb.JPG)
 
   - Choose the repo that contains your .tf files
   - Enter the workspace name (e.g terraform-cloud-dev)
@@ -71,7 +71,7 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
   ![9](https://user-images.githubusercontent.com/47898882/141004390-90a8efec-5051-429f-8b45-7b2bee25fd0a.JPG)
 
   - Click Create Workspace
-  
+
   - Configure your variables
 
 Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cloud will automatically pick up the variables from the version control
@@ -91,7 +91,6 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 
 ![11](https://user-images.githubusercontent.com/47898882/141004394-47c30815-696f-45d0-8d20-d64870168d95.JPG)
 
-
 - To configure Slack notification, choose Slack instead of Email
 - See how to get your Slack webhook here: https://api.slack.com/messaging/webhooks#create_a_webhook
 - Then configure everything else as with Email configuration
@@ -103,6 +102,7 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 ## Practice Task 2 (https://learn.hashicorp.com/tutorials/terraform/module-private-registry-share)
 
 - Create a simple Terraform repository that will be your module
+
   - Clone from this repo https://github.com/hashicorp/learn-private-module-aws-s3-webapp
   - Your repo's name should be in the form terraform-\<PROVIDER>-\<NAME>
   - Click "Tag release" from the left pane
@@ -114,15 +114,16 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 ![12](https://user-images.githubusercontent.com/47898882/141006248-e67ce941-25c2-45f9-b233-064099beef21.JPG)
 
 - Import the module into your private repository
+
   - On your Terraform cloud, click Registry on the top pane
   - You'll need to add a VCS provider. Select GitHub (Custom) when prompted
   - Follow the outlined steps
   - Click connect and continue
   - Go back to Registry
-  - Click "Publish private module" 
+  - Click "Publish private module"
   - Click the VCS you configured and find the name of your module repo
   - Select the module and click the "Publish module" button
-  
+
   - Copy the configuration details, you'll need it later for when you want to use the module
 
   ![13](https://user-images.githubusercontent.com/47898882/141006256-51dd8737-17a3-4133-8e5c-b24a0b01daee.JPG)
@@ -157,21 +158,21 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 
 **Note** - Replace the **module** block with the configuration details you copied earlier.
 
-  - In your variables.tf file, add the following
+- In your variables.tf file, add the following
 
-  ```
-  variable "region" {
-    description = "This is the cloud hosting region where your webapp will be deployed."
-  }
+```
+variable "region" {
+  description = "This is the cloud hosting region where your webapp will be deployed."
+}
 
-  variable "prefix" {
-    description = "This is the environment your webapp will be prefixed with. dev, qa, or prod"
-  }
+variable "prefix" {
+  description = "This is the environment your webapp will be prefixed with. dev, qa, or prod"
+}
 
-  variable "name" {
-    description = "Your name to attach to the webapp address"
-  }
-  ```
+variable "name" {
+  description = "Your name to attach to the webapp address"
+}
+```
 
 - Terraform Cloud uses the outputs.tf file to display your module outputs as you run them in the web UI.
 
@@ -195,7 +196,6 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
 
 ![14](https://user-images.githubusercontent.com/47898882/141006267-3b672667-75d0-4ae9-9169-0b9b5ca357e9.JPG)
 
-
 ## Deploy the infrastructure
 
 Test your deployment by queuing a plan, then confriming and applying the plan in your Terraform Cloud UI.
@@ -208,8 +208,8 @@ Test your deployment by queuing a plan, then confriming and applying the plan in
 
 ![17](https://user-images.githubusercontent.com/47898882/141006286-01e2d9df-83ea-41a4-a214-e6df7583e1b2.JPG)
 
-
 ## Destroy the deployment
 
 You will need queue a destroy plan in the Terraform Cloud UI for your workspace, by clicking the "Queue destroy plan" button.
 
+## Congratualations!!. You've automated your AWS Infrastructure uding Terraform Cloud.
