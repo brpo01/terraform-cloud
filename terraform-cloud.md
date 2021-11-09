@@ -54,16 +54,15 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
 - Make necessary configurations to trigger runs automatically only for **dev** environment.
 
   - Create a new workspace, select "version control workflow"
+
   - Select "GitHub" as version control provider
 
    ![7](https://user-images.githubusercontent.com/47898882/141002371-a3293dbe-884f-41a4-9b7a-ed0cd31194bb.JPG)
-   
-  - Choose the repo that contains your tf files
+
+  - Choose the repo that contains your .tf files
   - Enter the workspace name (e.g terraform-cloud-dev)
   - Click Advanced options, under VCS branch, enter the branch you want to configure (e.g dev)
   - Click Create Workspace
-    ![Inked{8823D0FA-820C-4C9D-85A7-C49C205805A2} png_LI](https://user-images.githubusercontent.com/76074379/132108186-0bc7dd7d-4f83-45e5-bd0a-e354b19961dd.jpg)
-
   - Configure your variables
 
 Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cloud will automatically pick up the variables from the version control
