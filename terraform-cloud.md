@@ -108,7 +108,7 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   - Click "Tag release" from the left pane
   - Create a new release
   - Click "Create a new release", and add 1.0.0 to the tag version field, and set the Release title to anything you like.
-  
+
   - Click "Publish release"
 
 ![12](https://user-images.githubusercontent.com/47898882/141006248-e67ce941-25c2-45f9-b233-064099beef21.JPG)
@@ -119,16 +119,14 @@ Change the name of terraform.tfvars to **_terraform.auto.tfvars_**. Terraform Cl
   - Follow the outlined steps
   - Click connect and continue
 
-![Inked{B75F92F8-8A4B-419E-B368-2AC2E4A89345} png_LI](https://user-images.githubusercontent.com/76074379/132107117-1d57d5d9-8bc7-4cc9-97dd-03f7e6d57798.jpg)
+  - Go back to Registry
+  - Click "Publish private module" 
+  - Click the VCS you configured and find the name of your module repo
+  - Select the module and click the "Publish module" button
+  - Copy the configuration details, you'll need it later for when you want to use the module
+  - Create a configuration that uses the module
 
-- Go back to Registry
-- Click "Publish private module"
-- Click the VCS you configured and find the name of your module repo
-- Select the module and click the "Publish module" button
-- Copy the configuration details, you'll need it later for when you want to use the module
-- Create a configuration that uses the module
-
-  - you can fork this repo https://github.com/hashicorp/learn-private-module-root/
+  - You can fork this repo https://github.com/hashicorp/learn-private-module-root/
   - Create main.tf, variables.tf and outputs.tf files
   - In your main.tf file, paste in the following block
 
