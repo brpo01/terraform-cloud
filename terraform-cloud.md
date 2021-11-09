@@ -62,6 +62,9 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
   - Choose the repo that contains your .tf files
   - Enter the workspace name (e.g terraform-cloud-dev)
   - Click Advanced options, under VCS branch, enter the branch you want to configure (e.g dev)
+
+  ![8](https://user-images.githubusercontent.com/47898882/141004382-0ef6fd0e-2e53-4222-ae09-dc6d0bbab647.JPG)
+  
   - Click Create Workspace
   - Configure your variables
 
