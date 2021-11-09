@@ -36,7 +36,7 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
   - Click Variables from the top tab in your workspace, under the workspace name
   - Scroll down to Environment Variables and create variables for your access key id and secret access key you got from AWS.
 
-  ![{089F0B80-1BA9-4163-987F-BA17B7AB025C} png](https://user-images.githubusercontent.com/76074379/132105503-dbdb84d5-6fec-4866-b3cb-ce7889ce7d22.jpg)
+  ![5](https://user-images.githubusercontent.com/47898882/141002360-0630f447-263d-4502-89dc-04ba93053b29.JPG)
 
 - Run **plan** and **apply** from console
   - Click on the Runs tab
