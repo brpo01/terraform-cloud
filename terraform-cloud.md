@@ -55,8 +55,9 @@ Terraform Cloud executes Terraform commands on disposable virtual machines, this
 
   - Create a new workspace, select "version control workflow"
   - Select "GitHub" as version control provider
-    ![{1E25EF58-0C5D-4CAE-B2A2-F474E0E81D2B} png](https://user-images.githubusercontent.com/76074379/132105912-2ff48417-0a6d-46c6-9670-b74819b6c90b.jpg)
 
+   ![7](https://user-images.githubusercontent.com/47898882/141002371-a3293dbe-884f-41a4-9b7a-ed0cd31194bb.JPG)
+   
   - Choose the repo that contains your tf files
   - Enter the workspace name (e.g terraform-cloud-dev)
   - Click Advanced options, under VCS branch, enter the branch you want to configure (e.g dev)
